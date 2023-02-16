@@ -18,7 +18,7 @@ const SideBar = () => {
   );
 
   return (
-    <div className="p-2 md:flex flex-col h-full fixed overflow-y-auto hidden">
+    <div className="p-2 md:flex flex-col h-full relative overflow-y-auto hidden">
       <div className="flex-1">
         <div>
           {/* NewChat */}
